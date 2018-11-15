@@ -2,10 +2,10 @@ require 'test_helper'
 
 class PostTest < ActiveSupport::TestCase
   def setup
-    @post = Post.new(title: "This is a title", content:"This is a content")
+    @post = Post.new(user_id: 1, title: "This is a title", content:"This is a content")
   end
-  test "Should be true for valid post with proper title and content" do
-    assert @post.valid?
+  test "Should not be true for valid post with proper title and content without user id" do
+    assert_not @post.valid?
   end
   test "Empty title shouldn't be validate" do
     @post.title = ""
