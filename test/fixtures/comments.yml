@@ -2,10 +2,10 @@
 
 one:
   user: one
-  post: one
+  comment_morph: one
   body: MyText
 
 two:
   user: two
-  post: two
+  comment_morph: two
   body: MyText
