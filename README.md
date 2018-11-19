@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a small version of reddit blog.
 
 Things you may want to cover:
 
 * Ruby version
+    - 5.2.1
 
 * System dependencies
+    - bundle install handle all the dependencies issues
 
 * Configuration
+    - No need
 
 * Database creation
+    - `rails db:create` for create database
 
 * Database initialization
+    - `rails db:migrate` for migrate database
 
 * How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    - `rails test`
