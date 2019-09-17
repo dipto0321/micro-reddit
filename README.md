@@ -1,4 +1,4 @@
-# README
+# Micro reddit
 
 This is a small version of reddit blog.
 
